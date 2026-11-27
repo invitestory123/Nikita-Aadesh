@@ -1,7 +1,7 @@
 window.INVITATION_CONFIG = {
   "site": {
     "title": "Nikita & Aadesh — Wedding Invitation",
-    "description": "You are warmly invited to celebrate the wedding festivities of Nikita Pawar and Aadesh Gaikwad."
+    "description": "Together with their families, Nikita Pawar & Aadesh Gaikwad warmly invite you to celebrate their wedding festivities on 20th December 2026 at Nirvana Banquet, Ambernath."
   },
   "couple": {
     "brideInitial": "N",
