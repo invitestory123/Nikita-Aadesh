@@ -138,7 +138,7 @@ window.INVITATION_CONFIG = {
       "start": "2026-12-20T18:00:00+05:30",
       "end": "2026-12-20T23:30:00+05:30",
       "date": "December 20, 2026",
-      "time": "6:00 PM (Muhurat) & Reception 8:00 PM onwards",
+      "time": "6:00 PM & Reception 8:00 PM onwards",
       "location": "Nirvana Banquet, 2nd Floor, GNP Galaxy Commercial Complex, Kalyan–Badlapur Road, Near Sai Baba Mandir, Opp. Ordinance Factory, Waldhuni, Ambernath, Maharashtra – 421501",
       "mapLink": "https://share.google/yEDn5OjxG6cbGAXGh",
       "theme": {

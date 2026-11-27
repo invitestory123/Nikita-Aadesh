@@ -97,3 +97,107 @@
 @media (prefers-reduced-motion: reduce) {
   .cal-menu a, .cal-menu button { transition: none; }
 }
+
+/* Coordination & Residence Section */
+.coordination-section {
+  position: relative;
+  background: radial-gradient(ellipse at 50% 0, #fbf1e1, #edddc6);
+}
+.coordination-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 auto;
+  max-width: 440px;
+}
+.coord-card {
+  position: relative;
+  padding: 38px 24px 34px;
+  text-align: center;
+  background: linear-gradient(145deg, #F6ECDD, #F1E1CB, #EAD3B4);
+  border: 1px solid #c9a35f;
+  box-shadow: 0 16px 40px color-mix(in srgb, var(--plum) 8%, transparent);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+.coord-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 50px color-mix(in srgb, var(--plum) 12%, transparent);
+}
+.coord-card::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  pointer-events: none;
+  border: 1px solid rgba(201, 163, 95, 0.35);
+}
+.coord-card .eyebrow {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8C1620;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+}
+.coord-title {
+  margin: 0 0 18px;
+  font-family: var(--font-script);
+  font-size: clamp(2.4rem, 6.5vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: #3A070C;
+  position: relative;
+  z-index: 1;
+}
+.coord-text {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #56212a;
+  margin: 0 0 22px;
+  position: relative;
+  z-index: 1;
+}
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.coord-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #c9a35f;
+  color: #3A070C;
+  font-family: var(--font-display);
+  font-size: clamp(1.02rem, 3.2vw, 1.18rem);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: all 0.25s ease;
+}
+.coord-btn:hover,
+.coord-btn:focus-visible {
+  background: #3A070C;
+  color: #F1E3CE;
+  border-color: #3A070C;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(58, 7, 12, 0.18);
+}
+@media (min-width: 768px) {
+  .coordination-grid {
+    max-width: 480px;
+  }
+}
