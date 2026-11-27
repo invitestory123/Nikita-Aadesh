@@ -44,27 +44,37 @@ window.INVITATION_CONFIG = {
     "music": "./media/music.mp3",
     "gallery": [
       {
-        "src": "./media/gallery/03-v2.webp",
+        "src": "./media/gallery/01-couple.jpg",
         "alt": "Nikita & Aadesh",
         "caption": "Nikita & Aadesh"
+      },
+      {
+        "src": "./media/gallery/02-couple.jpg",
+        "alt": "Nikita & Aadesh",
+        "caption": "A celebration of love"
       }
     ]
   },
   "program": [
     {
-      "time": "05:00 PM",
-      "title": "Baraat & Welcome",
-      "note": "Grand arrival of the groom and family"
+      "time": "05:30 PM",
+      "title": "Engagement",
+      "note": "Ring exchange & blessings"
     },
     {
       "time": "06:00 PM",
-      "title": "Wedding Ceremony (Muhurat)",
-      "note": "Auspicious wedding rituals & pheras"
+      "title": "Wedding Ceremony",
+      "note": "Sacred vows & blessings"
+    },
+    {
+      "time": "07:30 PM",
+      "title": "Dinner",
+      "note": "A feast shared with love"
     },
     {
       "time": "08:00 PM",
-      "title": "Reception & Dinner",
-      "note": "Celebrations, blessings, photos & dinner onwards"
+      "title": "Reception",
+      "note": "8:00 PM onwards — Evening celebration & warm wishes"
     }
   ],
   "venue": {
@@ -92,7 +102,7 @@ window.INVITATION_CONFIG = {
       "date": "December 17, 2026",
       "time": "5:00 PM onwards",
       "location": "Swapnapurti, Sector 36, Building L-25, Flat No. 606, Kharghar, Navi Mumbai – 410210",
-      "mapLink": "https://www.google.com/maps/search/?api=1&query=Swapnapurti%2C+Sector+36%2C+Kharghar%2C+Navi+Mumbai+410210",
+      "mapLink": "https://share.google/a6Lwlk9O0fxuaCemc",
       "theme": {
         "bg": "linear-gradient(145deg, #F6ECDD, #F1E1CB, #EAD3B4)",
         "text": "#3A070C",
@@ -111,7 +121,7 @@ window.INVITATION_CONFIG = {
       "date": "December 18, 2026",
       "time": "4:45 PM onwards",
       "location": "Swapnapurti, Sector 36, Building L-25, Flat No. 606, Kharghar, Navi Mumbai – 410210",
-      "mapLink": "https://www.google.com/maps/search/?api=1&query=Swapnapurti%2C+Sector+36%2C+Kharghar%2C+Navi+Mumbai+410210",
+      "mapLink": "https://share.google/a6Lwlk9O0fxuaCemc",
       "theme": {
         "bg": "linear-gradient(145deg, #F6ECDD, #F1E1CB, #EAD3B4)",
         "text": "#3A070C",
